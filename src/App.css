@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  color: black;
+}
+
+nav a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.banner {
+  border-radius: 25px;
+  padding: 4% 0;
+  background-color: #4caf50;
+  color: white;
+  margin: 20px 0;
+  position: relative;
+}
+
+.banner .countdown {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.banner .description {
+  font-size: 18px;
+}
+
+.banner .banner-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #4caf50;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.banner button{
+  display: inline-block;
+  color: #fff;
+  margin: 0 6px;
+  margin-top: 6px;
+  padding: 11px 20px;
+  background-color: teal;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#main-content p{
+  width:60vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.dashboard {
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #1c1c1c;
+  margin: 20px 0;
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.dashboard label {
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.dashboard input[type="text"],
+.dashboard input[type="number"] {
+  border-radius: 25px;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px 1rem;
+  margin-top: 5px;
+}
+
+.dashboard input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.dashboard button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
